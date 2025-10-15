@@ -1,0 +1,90 @@
+<html>
+<head>
+ 
+  <title>Striped Table Example</title>
+  <style>
+   
+    #studentTable {
+      width: 100%;
+      border-collapse: collapse;
+      
+    }
+
+  
+    #studentTable th {
+      padding: 20px 0;          
+      text-align: left;
+      color: beige;
+      background-color: black;
+      border: 1px solid gray;
+    }
+
+    #studentTable td {
+      padding: 10px;
+      border: 1px solid gray;
+    }
+
+   
+    #studentTable tr:nth-child(even) {
+      background-color: #9aa1a0;
+    }
+
+   
+    #studentTable tr:hover {
+      background-color: burlywood;
+    }
+  </style>
+</head>
+<body>
+  <h2>Student Admission List</h2>
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Sl. No</th>
+        <th>Admission No</th>
+        <th>Name</th>
+        <th>Email ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>AD1</td>
+        <td>Fidha</td>
+        <td>fidha@xyz.com</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>AD2</td>
+        <td>ajum</td>
+        <td>anjum@xyz.com</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>AD3</td>
+        <td>ameena</td>
+        <td>ameena@xyz.com</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>AD4</td>
+        <td>sadha</td>
+        <td>sadha@xyz.com</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>AD5</td>
+        <td>misba</td>
+        <td>misba@xyz.com</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>AD6</td>
+        <td>jasna</td>
+        <td>jasna@xyz.com</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
